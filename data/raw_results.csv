@@ -1,0 +1,6 @@
+contract_type,run_1_sec,run_2_sec,run_3_sec,average_sec,deploy_sec,status
+Pure Python (baseline),30,40,45,38,35,FINALIZED/SUCCESS
+LLM strict_eq,40,48,45,44,35,FINALIZED/SUCCESS
+LLM prompt_comparative,45,55,49,50,32,FINALIZED/SUCCESS
+Web only,45,45,40,43,35,FINALIZED/SUCCESS
+Web + LLM combined,60,65,60,62,35,FINALIZED/SUCCESS

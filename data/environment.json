@@ -1,0 +1,20 @@
+{
+  "test_date": "March 2026",
+  "network": "GenLayer Studio (studio.genlayer.com)",
+  "chain_id": 61999,
+  "total_validators": 115,
+  "infrastructure_providers": ["openrouter", "ionet"],
+  "llm_models": [
+    { "model": "openai/gpt-5.2", "provider": "openrouter", "validators": 12 },
+    { "model": "openai/gpt-5-mini", "provider": "openrouter", "validators": 5 },
+    { "model": "anthropic/claude-sonnet-4.5", "provider": "openrouter", "validators": 13 },
+    { "model": "google/gemini-3-flash-preview", "provider": "openrouter", "validators": 15 },
+    { "model": "nvidia/llama-3.1-nemotron-ultra-253b-v1", "provider": "openrouter", "validators": 17 },
+    { "model": "qwen/qwen3-235b-a22b-2507", "provider": "openrouter", "validators": 12 },
+    { "model": "deepseek/deepseek-v3.2", "provider": "openrouter + ionet", "validators": 26 },
+    { "model": "meta-llama/llama-4-maverick", "provider": "openrouter + ionet", "validators": 14 }
+  ],
+  "measurement_method": "Manual timing from transaction submission to FINALIZED status",
+  "runs_per_contract": 3,
+  "notes": "All transactions used default validator selection. Times measured on GenLayer Studio hosted environment."
+}
