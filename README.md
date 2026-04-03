@@ -86,6 +86,20 @@ Web + LLM combined (~62s) is more than the sum of web alone (+5s) and LLM alone 
 
 ---
 
+## Deployed Contracts (Verifiable on Explorer)
+
+All contracts were deployed on GenLayer Studio testnet and can be verified on the explorer:
+
+| # | Contract Type | Address | Explorer |
+|---|---|---|---|
+| 1 | Pure Python (baseline) | `0x3594C3e0Ff54C091351CaB39c74C1566aB3b64Fe` | [View ↗](https://explorer-studio.genlayer.com/address/0x3594C3e0Ff54C091351CaB39c74C1566aB3b64Fe) |
+| 2 | LLM strict_eq | `0x48922d1eA36D36857f657f19d4a1eD79bFb90ae7` | [View ↗](https://explorer-studio.genlayer.com/address/0x48922d1eA36D36857f657f19d4a1eD79bFb90ae7) |
+| 3 | LLM prompt_comparative | `0xD450B7db20A6724210b36F9225F0536fD3eDCe95` | [View ↗](https://explorer-studio.genlayer.com/address/0xD450B7db20A6724210b36F9225F0536fD3eDCe95) |
+| 4 | Web only | `0x1976685350FDa4c787Bb08BC5bD49AaB89adE5b1` | [View ↗](https://explorer-studio.genlayer.com/address/0x1976685350FDa4c787Bb08BC5bD49AaB89adE5b1) |
+| 5 | Web + LLM combined | `0x4281C29845Cb5320fEc019Ae99E69798E53748cF` | [View ↗](https://explorer-studio.genlayer.com/address/0x4281C29845Cb5320fEc019Ae99E69798E53748cF) |
+
+---
+
 ## Methodology
 
 - Each contract was deployed once and executed 3 times
